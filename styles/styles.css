@@ -10,9 +10,25 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
+
 .logo{
     height: 70px;
+
+.mainButton{
+    cursor: pointer;
+    color: white;
+    padding: 9px 25px;
+    background-color: #121F60;
+    );
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.mainbutton :hover{
+    background-color: rgba(18, 31, 96, 0.5);
 }
